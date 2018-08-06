@@ -38,7 +38,6 @@ h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 22px;
     font-weight: bold;
-
 }
 
 a {
@@ -61,7 +60,9 @@ button {
 
 footer {
     background-color: #666666;
-    padding: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     text-align: center;
     border-top: solid;
     border-color: #cccccc;
