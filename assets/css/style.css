@@ -336,7 +336,7 @@ strong {
     }
 
     textarea {
-        width: 695px;
+        max-width: 695px;
     }
 }
 
@@ -370,7 +370,7 @@ strong {
     }
 
     textarea {
-        width: 595px;
+        max-width: 595px;
     }
 
     .image-2 {
@@ -436,7 +436,7 @@ strong {
     }
 
     textarea {
-        width: 295px;
+        max-width: 295px;
     }
 
     .me {
