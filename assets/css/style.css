@@ -124,8 +124,8 @@ strong {
     color: #777777;
     background-color: #ffffff;
     line-height: 1.5;
-    animation-name: colorFade;
-    animation-duration: 2s;
+    /* animation-name: colorFade;
+    animation-duration: 2s; */
 }
 
 .contact {
@@ -141,8 +141,8 @@ strong {
     color: #777777;
     background-color: #ffffff;
     line-height: 1.5;
-    animation-name: colorFade;
-    animation-duration: 2s;
+    /* animation-name: colorFade;
+    animation-duration: 2s; */
 }
 
 .portfolio {
@@ -160,8 +160,8 @@ strong {
     background-color: #ffffff;
     line-height: 1.5;
     position: relative;
-    animation-name: colorFade;
-    animation-duration: 2s;
+    /* animation-name: colorFade;
+    animation-duration: 2s; */
 }
 
 .links {
