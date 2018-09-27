@@ -216,6 +216,12 @@ strong {
     top: 614px;
 }
 
+.image-6 {
+    position: absolute;
+    top: 614px;
+    left: 400px;
+}
+
 .image-1-text {
     background-color: #4aaaa5;
     color: white;
@@ -276,6 +282,18 @@ strong {
     top: 140px;
 }
 
+.image-6-text {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 140px;
+}
+
 .home {
     text-decoration: none;
     color: white;
@@ -308,6 +326,11 @@ strong {
 }
 
 .image-5-text:hover {
+    color: #cccccc;
+    text-decoration: underline;
+}
+
+.image-6-text:hover {
     color: #cccccc;
     text-decoration: underline;
 }
@@ -396,6 +419,15 @@ strong {
     .image-4-text {
         top: 164px;
     }
+
+    .image-6 {
+        top: 590px;
+        left: 325px;
+    }
+
+    .image-6-text {
+        top: 164px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -410,7 +442,7 @@ strong {
 
     .portfolio {
         width: 300px;
-        height: 1200px;
+        height: 1400px;
         position: relative;
     }
 
@@ -476,6 +508,12 @@ strong {
         position: absolute;
         left: 20px;
         top: 960px;
+    }
+
+    .image-6 {
+        position: absolute;
+        left: 20px;
+        top: 1180px;
     }
     
     .image-1-text {
