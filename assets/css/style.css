@@ -122,6 +122,7 @@ strong {
     width: 25px;
     position: fixed;
     bottom: 15px;
+    border-radius: 2px;
 }
 
 #github {
