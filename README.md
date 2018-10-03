@@ -1,5 +1,8 @@
 # Responsive-Portfolio
 
-Bonus items:
+## Welcome to my Portfolio!
 
-1. Created a CSS animation for a 2 second background-color fade on the content section of each page.
+Please explore! You can find links to my current projects under the Portfolio tab.
+
+* Clicking the image will direct you to the app
+* Clicking the text will direct you to the GitHub repo page
