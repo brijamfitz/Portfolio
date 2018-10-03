@@ -1,4 +1,4 @@
-# Responsive-Portfolio
+# Portfolio
 
 ## Welcome to my Portfolio!
 
