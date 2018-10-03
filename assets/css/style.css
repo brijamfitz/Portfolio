@@ -102,6 +102,14 @@ strong {
     font-weight: bold;
 }
 
+#my-email,
+#linked-in,
+#git-hub {
+    padding: 0px;
+    margin: 20px;
+    color: white;
+}
+
 #portfolio-intro {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -122,10 +130,6 @@ strong {
     position: fixed;
     bottom: 15px;
     border-radius: 2px;
-}
-
-#my-email {
-    color: white;
 }
 
 .me {
