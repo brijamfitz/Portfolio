@@ -253,6 +253,10 @@ p {
   color: black;
 }
 
+#my-email {
+  margin-left: 0px;
+}
+
 #linkedin {
     height: 25px;
     width: 25px;
