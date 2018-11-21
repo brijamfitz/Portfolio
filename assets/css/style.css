@@ -273,6 +273,8 @@ p {
   font-size: 14px;
 }
 
+/* Media screens */
+/* ============================================================================ */
 @media screen and (max-width: 991px) {
   .image-1-text {
     top: 240px;
@@ -350,9 +352,13 @@ p {
   }
   .img-thumbnail {
     width: 300px;
+    position: relative;
+    left: 6px;
+    margin-bottom: 10px;
   }
 
   #info {
       display: none;
   }
+  
 }
