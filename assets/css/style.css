@@ -70,6 +70,8 @@ img {
   float: left;
   margin-top: 4px;
   margin-bottom: 4px;
+  border: solid;
+  border-color: #cccccc;
 }
 
 .img-thumbnail {
@@ -118,7 +120,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
-  height: 1500px;
+  height: 1400px;
   padding: 20px 20px 20px 20px;
   margin-top: 50px;
   margin-bottom: 420px;
@@ -138,7 +140,7 @@ p {
 }
 
 .image-1-text {
-  background-color: #cccccc;
+  background-image: url("../images/grey.png");
   color: black;
   font-family: "Georgia", Times, Times New Roman, serif;
   width: 440px;
@@ -148,10 +150,13 @@ p {
   position: absolute;
   top: 240px;
   margin-left: 0px;
+  border-left: solid;
+  border-right: solid;
+  border-color: #cccccc;
 }
 
 .image-2-text {
-  background-color: #cccccc;
+  background-image: url("../images/grey.png");
   color: black;
   font-family: "Georgia", Times, Times New Roman, serif;
   width: 440px;
@@ -161,10 +166,13 @@ p {
   position: absolute;
   top: 240px;
   margin-left: 0px;
+  border-left: solid;
+  border-right: solid;
+  border-color: #cccccc;
 }
 
 .image-3-text {
-  background-color: #cccccc;
+  background-image: url("../images/grey.png");
   color: black;
   font-family: "Georgia", Times, Times New Roman, serif;
   width: 440px;
@@ -174,10 +182,13 @@ p {
   position: absolute;
   top: 240px;
   margin-left: 0px;
+  border-left: solid;
+  border-right: solid;
+  border-color: #cccccc;
 }
 
 .image-4-text {
-  background-color: #cccccc;
+  background-image: url("../images/grey.png");
   color: black;
   font-family: "Georgia", Times, Times New Roman, serif;
   width: 440px;
@@ -187,10 +198,13 @@ p {
   position: absolute;
   top: 240px;
   margin-left: 0px;
+  border-left: solid;
+  border-right: solid;
+  border-color: #cccccc;
 }
 
 .image-5-text {
-  background-color: #cccccc;
+  background-image: url("../images/grey.png");
   color: black;
   font-family: "Georgia", Times, Times New Roman, serif;
   width: 440px;
@@ -200,10 +214,13 @@ p {
   position: absolute;
   top: 240px;
   margin-left: 0px;
+  border-left: solid;
+  border-right: solid;
+  border-color: #cccccc;
 }
 
 .image-6-text {
-  background-color: #cccccc;
+  background-image: url("../images/grey.png");
   color: black;
   font-family: "Georgia", Times, Times New Roman, serif;
   width: 440px;
@@ -213,6 +230,9 @@ p {
   position: absolute;
   top: 240px;
   margin-left: 0px;
+  border-left: solid;
+  border-right: solid;
+  border-color: #cccccc;
 }
 
 .image-1-text:hover {
@@ -263,6 +283,7 @@ p {
     position: fixed;
     bottom: 15px;
     border-radius: 2px;
+    border: none;
 }
 
 #github {
@@ -271,6 +292,7 @@ p {
     position: fixed;
     bottom: 15px;
     border-radius: 2px;
+    border: none;
 }
 
 #info {
@@ -343,7 +365,7 @@ p {
   }
 
   .portfolio {
-    height: 2300px;
+    height: 2200px;
   }
 
   .portfolio,
