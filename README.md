@@ -2,6 +2,8 @@
 
 ## Welcome to my Portfolio!
 
+![image](assets/images/screenshot-portfolio.png)
+
 Please explore! You can find links to my current projects under the Portfolio tab.
 
 ### Features
@@ -10,9 +12,6 @@ Please explore! You can find links to my current projects under the Portfolio ta
     * Click the image to launch the app
     * Click the text to launch the GitHub repo
     * READMEs contain more detailed information for each project
-
-
-![image](assets/images/screenshot-portfolio.png)
 
 &nbsp;
 
