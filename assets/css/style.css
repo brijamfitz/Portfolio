@@ -139,6 +139,16 @@ p {
   font-weight: normal;
 }
 
+#image-1,
+#image-2,
+#image-3,
+#image-4,
+#image-5,
+#image-6 {
+  width: 440px;
+  height: 300px;
+}
+
 .image-1-text {
   background-image: url("../images/grey.png");
   color: black;
@@ -278,21 +288,21 @@ p {
 }
 
 #linkedin {
-    height: 25px;
-    width: 25px;
-    position: fixed;
-    bottom: 15px;
-    border-radius: 2px;
-    border: none;
+  height: 25px;
+  width: 25px;
+  position: fixed;
+  bottom: 15px;
+  border-radius: 2px;
+  border: none;
 }
 
 #github {
-    height: 25px;
-    width: 25px;
-    position: fixed;
-    bottom: 15px;
-    border-radius: 2px;
-    border: none;
+  height: 25px;
+  width: 25px;
+  position: fixed;
+  bottom: 15px;
+  border-radius: 2px;
+  border: none;
 }
 
 #info {
@@ -302,26 +312,54 @@ p {
 /* Media screens */
 /* ============================================================================ */
 @media screen and (max-width: 991px) {
+  #image-1,
+  #image-2,
+  #image-3,
+  #image-4,
+  #image-5,
+  #image-6 {
+    width: 300px;
+    height: 200px;
+  }
+
   .image-1-text {
-    top: 240px;
+    top: 140px;
+    width: 300px;
   }
 
   .image-2-text {
-    top: 240px;
+    top: 140px;
+    width: 300px;
+  }
+
+  .image-3-text {
+    top: 140px;
+    width: 300px;
+  }
+
+  .image-4-text {
+    top: 140px;
+    width: 300px;
   }
 
   .image-5-text {
-    top: 240px;
+    top: 140px;
+    width: 300px;
+  }
+
+  .image-6-text {
+    top: 140px;
+    width: 300px;
   }
 
   .portfolio {
-    height: 1500px;
+    height: 1200px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .image-1-text {
-    top: 230px;
+    top: 130px;
   }
 
   .image-2 {
@@ -329,7 +367,7 @@ p {
   }
 
   .image-2-text {
-    top: 265px;
+    top: 165px;
   }
 
   .image-3 {
@@ -337,7 +375,7 @@ p {
   }
 
   .image-3-text {
-    top: 205px;
+    top: 105px;
   }
 
   .image-4 {
@@ -345,7 +383,7 @@ p {
   }
 
   .image-4-text {
-    top: 255px;
+    top: 155px;
   }
 
   .image-5 {
@@ -353,7 +391,7 @@ p {
   }
 
   .image-5-text {
-    top: 205px;
+    top: 105px;
   }
 
   .image-6 {
@@ -361,20 +399,16 @@ p {
   }
 
   .image-6-text {
-    top: 255px;
+    top: 155px;
   }
 
   .portfolio {
-    height: 2200px;
-  }
-
-  .portfolio,
-  .contact {
-    width: 500px;
+    height: 1600px;
+    width: 370px;
   }
 
   .about-me {
-      width: 370px;
+    width: 370px;
   }
   .img-thumbnail {
     width: 300px;
@@ -384,7 +418,6 @@ p {
   }
 
   #info {
-      display: none;
+    display: none;
   }
-  
 }
