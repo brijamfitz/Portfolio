@@ -1,97 +1,155 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="assets/images/b-favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <title>Portfolio</title>
-
-    <link rel="icon" type="image/png" href="assets/images/b-favicon.png">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <header>
-        <div class="header-container">
-            <h1><a href="index.html" class="home">Brian Fitzgerald</a></h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Brian Fitzgerald</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <span class="navbar-text">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="index.html">About
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <!-- <a class="nav-item nav-link" href="contact.html">Contact</a> -->
+                </div>
+            </span>
+        </div>
+    </nav>
 
-            <div class="links">
-                <a href="index.html">About</a> |
-
-                <a href="portfolio.html">Portfolio</a> |
-
-                <a href="contact.html">Contact</a>
+    <div class="container portfolio">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Portfolio <span id="portfolio-intro">&mdash; Click the image to launch the app, or click the text to launch the GitHub repo!</span></h3>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="image-1">
+                    <a href="https://brijamfitz.github.io/Solar-System/" target="blank">
+                        <img src="assets/images/solar-system.jpg" target="_blank" alt="Journey Through the Solar System" style="width:440px;height:300px">
+                        <a href="https://github.com/brijamfitz/Solar-System" target="_blank">
+                            <div class="image-1-text">Journey Through the Solar System</div>
+                        </a>
+                    </a>
+                </div>
             </div>
 
-        </div>
-    </header>
-
-    <div class="portfolio clearfix">
-
-        <h2>Portfolio <span id="portfolio-intro">&mdash; Click the image to launch the app, or click the text to launch the GitHub repo!</span></h2>
-
-        <div class="image-1">
-            <a href="https://brijamfitz.github.io/Solar-System/" target="blank">
-                <img src="assets/images/solar-system.jpg" target="_blank" alt="Journey Through the Solar System" style="width:300px;height:200px">
-                <a href="https://github.com/brijamfitz/Solar-System" target="_blank">
-                    <div class="image-1-text">Journey Through the Solar System</div>
-                </a>
-            </a>
+            <div class="col-md-6">
+                <div class="image-2">
+                    <a href="https://intense-brushlands-23599.herokuapp.com/" target="_blank">
+                        <img src="assets/images/burger.jpg" target="_blank" alt="Eat Da Burger" style="width:440px;height:300px">
+                        <a href="https://github.com/brijamfitz/sequelizedBurger" target="_blank">
+                            <div class="image-2-text">Eat-Da-Burger</div>
+                        </a>
+                    </a>
+                </div>
+            </div>
         </div>
 
-        <div class="image-2">
-            <a href="https://brijamfitz.github.io/Crystals-Collector/" target="_blank">
-                <img src="assets/images/crystals-collector.jpg" target="_blank" alt="Crystals Collector" style="width:300px;height:200px">
-                <a href="https://github.com/brijamfitz/Crystals-Collector" target="_blank">
-                    <div class="image-2-text">Crystals Collector</div>
-                </a>
-            </a>
+        <div class="row">
+            <div class="col-md-6">
+                <p id="info">Take an interactive and educational journey through the solar system, complete with API calls and Chart.js data visualization!</p>
+            </div>
+
+            <div class="col-md-6">
+                <p id="info">Create and devour your favorite burgers in this fun, full-stack application that utilizes a Sequelize ORM!</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="image-3">
+                    <a href="https://brijamfitz.github.io/Boxing-Classic/" target="_blank">
+                        <img src="assets/images/boxing-classic.jpg" target="_blank" alt="Boxing Classic" style="width:440px;height:300px">
+                        <a href="https://github.com/brijamfitz/Boxing-Classic" target="_blank">
+                            <div class="image-3-text">Boxing Classic</div>
+                        </a>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="image-4">
+                    <a href="https://drive.google.com/file/d/1iE_TABwLfDTecmOcuULW2LTd8QoRTjEc/view" target="blank">
+                        <img src="assets/images/bamazon.jpg" target="_blank" alt="Bamazon" style="width:440px;height:300px">
+                        <a href="https://github.com/brijamfitz/bamazon-mysql" target="_blank">
+                            <div class="image-4-text">Bamazon</div>
+                        </a>
+                    </a>
+                </div>
+            </div>
         </div>
 
-        <div class="image-3">
-            <a href="https://brijamfitz.github.io/Boxing-Classic/" target="_blank">
-                <img src="assets/images/boxing-classic.jpg" target="_blank" alt="Boxing Classic" style="width:300px;height:200px">
-                <a href="https://github.com/brijamfitz/Boxing-Classic" target="_blank">
-                    <div class="image-3-text">Boxing Classic</div>
-                </a>
-            </a>
+        <div class="row">
+            <div class="col-md-6">
+                <p id="info">Classic boxers from different eras match up against each other to find out who is the real world champion in this boxing RPG!</p>
+            </div>
+
+            <div class="col-md-6">
+                <p id="info">Bamazon is a MySQL and Node.js application that functions as an online marketplace. Play the role of customer, manager, or supervisor! Watch a demo <a href="https://drive.google.com/file/d/1iE_TABwLfDTecmOcuULW2LTd8QoRTjEc/view" target="_blank">here</a>!</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="image-5">
+                    <a href="https://brijamfitz.github.io/Train-Scheduler/" target="blank">
+                        <img src="assets/images/train-scheduler.jpg" target="_blank" alt="Train Scheduler" style="width:440px;height:300px">
+                        <a href="https://github.com/brijamfitz/Train-Scheduler" target="_blank">
+                            <div class="image-5-text">Train Scheduler</div>
+                        </a>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="image-6">
+                    <a href="https://brijamfitz.github.io/Caddyshack-Word-Guess/" target="_blank">
+                        <img src="assets/images/caddyshack-hangman.jpg" target="_blank" alt="Caddyshack Word Guess" style="width:440px;height:300px">
+                        <a href="https://github.com/brijamfitz/Caddyshack-Word-Guess" target="_blank">
+                            <div class="image-6-text">Caddyshack Word Guess</div>
+                        </a>
+                    </a>
+                </div>
+            </div>   
         </div>
 
-        <div class="image-4">
-            <a href="https://github.com/brijamfitz/bamazon-mysql" target="blank">
-                <img src="assets/images/bamazon.jpg" target="_blank" alt="Bamazon" style="width:300px;height:200px">
-                <a href="https://github.com/brijamfitz/bamazon-mysql" target="_blank">
-                    <div class="image-4-text">Bamazon</div>
-                </a>
-            </a>
-        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p id="info">Build your own real time train scheduler backed by Firebase and Moment.js!</p>
+            </div>
 
-        <div class="image-5">
-            <a href="https://brijamfitz.github.io/Train-Scheduler/" target="blank">
-                <img src="assets/images/train-scheduler.jpg" target="_blank" alt="Train Scheduler" style="width:300px;height:200px">
-                <a href="https://github.com/brijamfitz/Train-Scheduler" target="_blank">
-                    <div class="image-5-text">Train Scheduler</div>
-                </a>
-            </a>
+            <div class="col-md-6">
+                <p id="info">Guess the classic characters from Caddyshack in a game of JavaScript Word Guess!</p>
+            </div>
         </div>
-
-        <div class="image-6">
-            <a href="https://brijamfitz.github.io/Caddyshack-Word-Guess/" target="_blank">
-                <img src="assets/images/caddyshack-hangman.jpg" target="_blank" alt="Caddyshack Word Guess" style="width:300px;height:200px">
-                <a href="https://github.com/brijamfitz/Caddyshack-Word-Guess" target="_blank">
-                    <div class="image-6-text">Caddyshack Word Guess</div>
-                </a>
-            </a>
-        </div>
-        
-        <div class="clearfix"></div>
+        <br><br>
     </div>
 
-    <footer>
-        <span>
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">
             <a href="mailto: brianjfitzgerald@gmail.com" id="my-email">brianjfitzgerald@gmail.com</a>
 
             <a href="https://www.linkedin.com/in/brian-james-fitzgerald/" target="_blank" id="linked-in">
@@ -99,10 +157,19 @@
             </a>
 
             <a href="https://github.com/brijamfitz" target="_blank" id="git-hub">
-                <img src="assets/images/github.png" id="github">
+                <img src="assets/images/github.png" id="github">    
             </a>
         </span>
-    </footer>
+    </nav>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
 </body>
 
