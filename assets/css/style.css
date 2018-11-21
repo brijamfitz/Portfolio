@@ -269,6 +269,10 @@ p {
     border-radius: 2px;
 }
 
+#info {
+  font-size: 14px;
+}
+
 @media screen and (max-width: 991px) {
   .image-1-text {
     top: 240px;
