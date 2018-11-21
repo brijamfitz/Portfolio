@@ -353,8 +353,8 @@ p {
   .img-thumbnail {
     width: 300px;
     position: relative;
-    left: 6px;
-    margin-bottom: 10px;
+    left: 10px;
+    margin-bottom: 15px;
   }
 
   #info {
