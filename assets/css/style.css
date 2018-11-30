@@ -120,7 +120,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
-  height: 1400px;
+  height: 2000px;
   padding: 20px 20px 20px 20px;
   margin-top: 50px;
   margin-bottom: 420px;
@@ -144,7 +144,9 @@ p {
 #image-3,
 #image-4,
 #image-5,
-#image-6 {
+#image-6,
+#image-7,
+#image-8 {
   width: 440px;
   height: 300px;
 }
@@ -245,6 +247,38 @@ p {
   border-color: #cccccc;
 }
 
+.image-7-text {
+  background-image: url("../images/grey.png");
+  color: black;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  width: 440px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 240px;
+  margin-left: 0px;
+  border-left: solid;
+  border-right: solid;
+  border-color: #cccccc;
+}
+
+.image-8-text {
+  background-image: url("../images/grey.png");
+  color: black;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  width: 440px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 240px;
+  margin-left: 0px;
+  border-left: solid;
+  border-right: solid;
+  border-color: #cccccc;
+}
+
 .image-1-text:hover {
   color: gray;
   text-decoration: underline;
@@ -271,6 +305,16 @@ p {
 }
 
 .image-6-text:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.image-7-text:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.image-8-text:hover {
   color: gray;
   text-decoration: underline;
 }
@@ -317,7 +361,9 @@ p {
   #image-3,
   #image-4,
   #image-5,
-  #image-6 {
+  #image-6,
+  #image-7,
+  #image-8 {
     width: 300px;
     height: 200px;
   }
@@ -352,8 +398,18 @@ p {
     width: 300px;
   }
 
+  .image-7-text {
+    top: 140px;
+    width: 300px;
+  }
+
+  .image-8-text {
+    top: 140px;
+    width: 300px;
+  }
+
   .portfolio {
-    height: 1200px;
+    height: 1700px;
   }
 }
 
@@ -402,8 +458,24 @@ p {
     top: 155px;
   }
 
+  .image-7 {
+    margin-top: -25px;
+  }
+
+  .image-7-text {
+    top: 105px;
+  }
+
+  .image-8 {
+    margin-top: 25px;
+  }
+
+  .image-8-text {
+    top: 155px;
+  }
+
   .portfolio {
-    height: 1600px;
+    height: 2100px;
     width: 370px;
   }
 
