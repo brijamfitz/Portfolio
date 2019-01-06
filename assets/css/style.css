@@ -120,7 +120,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
-  height: 2000px;
+  height: 2400px;
   padding: 20px 20px 20px 20px;
   margin-top: 50px;
   margin-bottom: 125px;
@@ -146,7 +146,9 @@ p {
 #image-5,
 #image-6,
 #image-7,
-#image-8 {
+#image-8,
+#image-9,
+#image-10 {
   width: 440px;
   height: 300px;
 }
@@ -279,6 +281,38 @@ p {
   border-color: #cccccc;
 }
 
+.image-9-text {
+  background-image: url("../images/grey.png");
+  color: black;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  width: 440px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 240px;
+  margin-left: 0px;
+  border-left: solid;
+  border-right: solid;
+  border-color: #cccccc;
+}
+
+.image-10-text {
+  background-image: url("../images/grey.png");
+  color: black;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  width: 440px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 240px;
+  margin-left: 0px;
+  border-left: solid;
+  border-right: solid;
+  border-color: #cccccc;
+}
+
 .image-1-text:hover {
   color: gray;
   text-decoration: underline;
@@ -315,6 +349,16 @@ p {
 }
 
 .image-8-text:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.image-9-text:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.image-10-text:hover {
   color: gray;
   text-decoration: underline;
 }
@@ -363,7 +407,9 @@ p {
   #image-5,
   #image-6,
   #image-7,
-  #image-8 {
+  #image-8,
+  #image-9,
+  #image-10 {
     width: 300px;
     height: 200px;
   }
@@ -408,8 +454,18 @@ p {
     width: 300px;
   }
 
+  .image-9-text {
+    top: 140px;
+    width: 300px;
+  }
+
+  .image-10-text {
+    top: 140px;
+    width: 300px;
+  }
+
   .portfolio {
-    height: 1700px;
+    height: 2000px;
   }
 }
 
@@ -474,8 +530,37 @@ p {
     top: 155px;
   }
 
+  .image-9 {
+    margin-top: -25px;
+  }
+
+  .image-9-text {
+    top: 105px;
+  }
+
+  .image-10 {
+    margin-top: 25px;
+  }
+
+  .image-10-text {
+    top: 155px;
+  }
+
+  .image-1,
+  .image-2,
+  .image-3,
+  .image-4,
+  .image-5,
+  .image-6,
+  .image-7,
+  .image-8,
+  .image-9,
+  .image-10 {
+    margin-left: 10px;
+  }
+
   .portfolio {
-    height: 2100px;
+    height: 2500px;
     width: 370px;
   }
 
