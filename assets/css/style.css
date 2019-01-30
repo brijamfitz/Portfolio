@@ -72,7 +72,7 @@ a:hover {
   width: 300px;
   border: solid;
   border-color: hotpink;
-  margin-right: 20px;
+  text-align: center;
 }
 
 .card {
