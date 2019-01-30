@@ -5,10 +5,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/b-favicon.png">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>Brian Fitzgerald</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <title>Projects</title>
@@ -16,233 +20,156 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Brian Fitzgerald</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto">
-            </ul>
-            <span class="navbar-text">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="index.html">About
-                        <span class="sr-only">(current)</span>
-                    </a>
-                    <a class="nav-item nav-link" href="portfolio.html">Projects</a>
-                    <!-- <a class="nav-item nav-link" href="contact.html">Contact</a> -->
-                </div>
-            </span>
-        </div>
-    </nav>
-
-    <div class="container portfolio">
+    <div class="projects-container">
+        <h1>My Projects</h1>
+        <hr />
+        <!-- Recca -->
         <div class="row">
-            <div class="col-md-12">
-                <h3>Projects</h3>
+            <div class="col-lg-4 img-container">
+            <a href="https://recca.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="assets/images/recca-logo.png" alt="Recca" class="project-img"></img></a>
+            </div>
+            <div class="col-lg-8 project-info">
+            <p class="title">Recca</p>
+            <p>Link: <a href="https://recca.herokuapp.com/" target="_blank" rel="noopener noreferrer">https://recca.herokuapp.com/</a></p>
+            <p>Source Code: <a href="https://github.com/recca-social/Recca" target="_blank" rel="noopener noreferrer">https://github.com/recca-social/Recca</a></p>
+            <p>Search, save, track, and recommend your favorite media in this full-stack MERN app.</p>
             </div>
         </div>
-        <br>
+        <hr />
+        <!-- Self-Improvement Kingdom -->
         <div class="row">
-            <div class="col-md-6">
-                <div class="image-1">
-                    <a href="https://nameless-thicket-61553.herokuapp.com/" target="_blank">
-                        <img src="assets/images/self-imprv-kngdm.png" target="_blank" alt="Self-Improvement Kingdom" id="image-1">
-                            <div class="image-1-text">Self-Improvement Kingdom</div>
-                    </a>
-                </div>
+            <div class="col-lg-4 img-container">
+                <a href="https://nameless-thicket-61553.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="assets/images/self-imprv-kngdm.png" alt="Self-Improvement Kingdom" class="project-img"></img></a>
             </div>
-
-            <div class="col-md-6">
-                <div class="image-2">
-                    <a href="https://brijamfitz.github.io/Solar-System/" target="_blank">
-                        <img src="assets/images/solar-system.png" target="_blank" alt="Journey Through the Solar System" id="image-2">                        
-                            <div class="image-2-text">Journey Through the Solar System</div>                        
-                    </a>
-                </div>
+            <div class="col-lg-8 project-info">
+                <p class="title">Self-Improvement Kingdom</p>
+                <p>Link: <a href="https://nameless-thicket-61553.herokuapp.com/" target="_blank" rel="noopener noreferrer">https://nameless-thicket-61553.herokuapp.com/</a></p>
+                <p>Source Code: <a href="https://github.com/brijamfitz/Self-Improvement-Kingdom" target="_blank" rel="noopener noreferrer">https://github.com/brijamfitz/Self-Improvement-Kingdom</a></p>
+                <p>Build your army and battle your way to self-improvement in this full-stack, gamified task manager! Self-Improvement Kingdom is supported by Sequelize ORM, Passport, Cron, Node, Handlebars, and jQuery.</p>
             </div>
         </div>
-
+        <hr />
+        <!-- Journey Through The Solar System -->
         <div class="row">
-            <div class="col-md-6">
-                <p id="info">
-                    Build your army and battle your way to self-improvement in this full-stack, gamified task manager! Self-Improvement Kingdom is supported by Sequelize ORM, Passport, Cron, Node, Handlebars, and jQuery.
-                    <br>
-                    <a href="https://github.com/brijamfitz/project-2" target="_blank">Click here for the GitHub Repo!</a>
-                </p>
+            <div class="col-lg-4 img-container">
+                <a href="https://brijamfitz.github.io/Solar-System/" target="_blank" rel="noopener noreferrer"><img src="assets/images/solar-system.png" alt="Journey Through The Solar System" class="project-img"></img></a>
             </div>
-
-            <div class="col-md-6">
-                <p id="info">Take an interactive and educational journey through the solar system, complete with API calls and Chart.js data visualization!
-                    <br>
-                    <a href="https://github.com/brijamfitz/Solar-System" target="_blank">Click here for the GitHub Repo!</a>
-                </p>
+            <div class="col-lg-8 project-info">
+                <p class="title">Journey Through The Solar System</p>
+                <p>Link: <a href="https://brijamfitz.github.io/Solar-System/" target="_blank" rel="noopener noreferrer">https://brijamfitz.github.io/Solar-System/</a></p>
+                <p>Source Code: <a href="https://github.com/brijamfitz/Solar-System" target="_blank" rel="noopener noreferrer">https://github.com/brijamfitz/Solar-System</a></p>
+                <p>Take an interactive and educational journey through the solar system, complete with API calls and Chart.js data visualization!</p>
             </div>
         </div>
-        <br><br>
+        <hr />
+        <!-- React Google Books Search -->
         <div class="row">
-            <div class="col-md-6">
-                <div class="image-3">
-                    <a href="https://serene-lowlands-44555.herokuapp.com/" target="_blank">
-                        <img src="assets/images/google-books-search.png" target="_blank" alt="React Google Books Search" id="image-3">
-                            <div class="image-3-text">React Google Books Search</div>
-                    </a>
-                </div>
+            <div class="col-lg-4 img-container">
+                <a href="https://serene-lowlands-44555.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="assets/images/google-books-search.png" alt="React Google Books Search" class="project-img"></img></a>
             </div>
-
-            <div class="col-md-6">
-                <div class="image-4">
-                    <a href="https://brijamfitz.github.io/Simpsons-Clicky/" target="_blank">
-                        <img src="assets/images/simpsons-clicky.png" target="_blank" alt="Simpsons Clicky" id="image-4">                        
-                            <div class="image-4-text">Simpsons Clicky</div>                        
-                    </a>
-                </div>
+            <div class="col-lg-8 project-info">
+                <p class="title">React Google Books Search</p>
+                <p>Link: <a href="https://serene-lowlands-44555.herokuapp.com/" target="_blank" rel="noopener noreferrer">https://serene-lowlands-44555.herokuapp.com/</a></p>
+                <p>Source Code: <a href="https://github.com/brijamfitz/Google-Books-Search" target="_blank" rel="noopener noreferrer">https://github.com/brijamfitz/Google-Books-Search</a></p>
+                <p>Search, save, and delete Google Books in this full-stack MERN application!</p>
             </div>
         </div>
-
+        <hr />
+        <!-- Simpsons Clicky -->
         <div class="row">
-            <div class="col-md-6">
-                <p id="info">
-                    Search, save, and delete Google Books in this full-stack MERN application!
-                    <br>
-                    <a href="https://github.com/brijamfitz/Google-Books-Search" target="_blank">Click here for the GitHub Repo!</a>
-                </p>
+            <div class="col-lg-4 img-container">
+                <a href="https://brijamfitz.github.io/Simpsons-Clicky/" target="_blank" rel="noopener noreferrer"><img src="assets/images/simpsons-clicky.png" alt="Simpsons Clicky" class="project-img"></img></a>
             </div>
-
-            <div class="col-md-6">
-                <p id="info">Test your memory in this Simpsons-themed clicky game, powered by React!
-                    <br>
-                    <a href="https://github.com/brijamfitz/Simpsons-Clicky" target="_blank">Click here for the GitHub Repo!</a>
-                </p>
+            <div class="col-lg-8 project-info">
+                <p class="title">Simpsons Clicky</p>
+                <p>Link: <a href="https://brijamfitz.github.io/Simpsons-Clicky/" target="_blank" rel="noopener noreferrer">https://brijamfitz.github.io/Simpsons-Clicky/</a></p>
+                <p>Source Code: <a href="https://github.com/brijamfitz/Simpsons-Clicky" target="_blank" rel="noopener noreferrer">https://github.com/brijamfitz/Simpsons-Clicky</a></p>
+                <p>Search, save, and delete Google Books in this full-stack MERN application!</p>
             </div>
         </div>
-        <br><br>
+        <hr />
+        <!-- Eat Da Burger -->
         <div class="row">
-            <div class="col-md-6">
-                <div class="image-5">
-                    <a href="https://intense-brushlands-23599.herokuapp.com/" target="_blank">
-                        <img src="assets/images/burger.jpg" target="_blank" alt="Eat-Da-Burger" id="image-5">                        
-                            <div class="image-5-text">Eat-Da-Burger</div>                        
-                    </a>
-                </div>
+            <div class="col-lg-4 img-container">
+                <a href="https://intense-brushlands-23599.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="assets/images/burger.jpg" alt="Eat Da Burger" class="project-img"></img></a>
             </div>
-
-            <div class="col-md-6">
-                <div class="image-6">
-                    <a href="https://drive.google.com/file/d/1iE_TABwLfDTecmOcuULW2LTd8QoRTjEc/view" target="blank">
-                        <img src="assets/images/bamazon.jpg" target="_blank" alt="Bamazon" id="image-6">
-                        
-                            <div class="image-6-text">Bamazon</div>
-                        
-                    </a>
-                </div>
+            <div class="col-lg-8 project-info">
+                <p class="title">Eat Da Burger</p>
+                <p>Link: <a href="https://intense-brushlands-23599.herokuapp.com/" target="_blank" rel="noopener noreferrer">https://intense-brushlands-23599.herokuapp.com/</a></p>
+                <p>Source Code: <a href="https://github.com/brijamfitz/sequelizedBurger" target="_blank" rel="noopener noreferrer">https://github.com/brijamfitz/sequelizedBurger</a></p>
+                <p>Create and devour your favorite burgers in this fun, full-stack application that utilizes a Sequelize ORM!</p>
             </div>
         </div>
-
+        <hr />
+        <!-- Bamazon -->
         <div class="row">
-            <div class="col-md-6">
-                <p id="info">Create and devour your favorite burgers in this fun, full-stack application that utilizes a Sequelize ORM!
-                    <br>
-                    <a href="https://github.com/brijamfitz/sequelizedBurger" target="_blank">Click here for the GitHub Repo!</a>
-                </p> 
+            <div class="col-lg-4 img-container">
+                <a href="https://drive.google.com/file/d/1iE_TABwLfDTecmOcuULW2LTd8QoRTjEc/view" target="_blank" rel="noopener noreferrer"><img src="assets/images/bamazon.jpg" alt="Bamazon" class="project-img"></img></a>
             </div>
-
-            <div class="col-md-6">
-                <p id="info">Bamazon is a MySQL and Node.js application that functions as an online marketplace. Play the role of customer, manager, or supervisor! Watch a demo <a href="https://drive.google.com/file/d/1iE_TABwLfDTecmOcuULW2LTd8QoRTjEc/view" target="_blank">here</a>!
-                    <br>
-                    <a href="https://github.com/brijamfitz/bamazon-mysql" target="_blank">Click here for the GitHub Repo!</a>
-                </p>
+            <div class="col-lg-8 project-info">
+                <p class="title">Bamazon</p>
+                <p>Link: <a href="https://drive.google.com/file/d/1iE_TABwLfDTecmOcuULW2LTd8QoRTjEc/view" target="_blank" rel="noopener noreferrer">https://drive.google.com/file/d/1iE_TABwLfDTecmOcuULW2LTd8QoRTjEc/view</a></p>
+                <p>Source Code: <a href="https://github.com/brijamfitz/bamazon-mysql" target="_blank" rel="noopener noreferrer">https://github.com/brijamfitz/bamazon-mysql</a></p>
+                <p>Bamazon is a MySQL and Node.js application that functions as an online marketplace. Play the role of customer, manager, or supervisor!</p>
             </div>
         </div>
-        <br><br>
+        <hr />
+        <!-- Train Scheduler -->
         <div class="row">
-            <div class="col-md-6">
-                <div class="image-7">
-                    <a href="https://brijamfitz.github.io/Train-Scheduler/" target="blank">
-                        <img src="assets/images/train-scheduler.jpg" target="_blank" alt="Train Scheduler" id="image-7">                        
-                            <div class="image-7-text">Train Scheduler</div>                        
-                    </a>
-                </div>
+            <div class="col-lg-4 img-container">
+                <a href="https://brijamfitz.github.io/Train-Scheduler/" target="_blank" rel="noopener noreferrer"><img src="assets/images/train-scheduler.jpg" alt="Train Scheduler" class="project-img"></img></a>
             </div>
-
-            <div class="col-md-6">
-                <div class="image-8">
-                    <a href="https://brijamfitz.github.io/Caddyshack-Word-Guess/" target="_blank">
-                        <img src="assets/images/caddyshack-hangman.jpg" target="_blank" alt="Caddyshack Word Guess" id="image-8">                        
-                            <div class="image-8-text">Caddyshack Word Guess</div>                       
-                    </a>
-                </div>
-            </div>   
-        </div>
-
-        <div class="row">
-            <div class="col-md-6">
-                <p id="info">Build your own real time train scheduler backed by Firebase and Moment.js!
-                    <br>
-                    <a href="https://github.com/brijamfitz/Train-Scheduler" target="_blank">Click here for the GitHub Repo!</a>
-                </p>
-            </div>
-
-            <div class="col-md-6">
-                <p id="info">Guess the classic characters from Caddyshack in a game of JavaScript Word Guess!
-                    <br>
-                    <a href="https://github.com/brijamfitz/Caddyshack-Word-Guess" target="_blank">Click here for the GitHub Repo!</a>
-                </p>
+            <div class="col-lg-8 project-info">
+                <p class="title">Train Scheduler</p>
+                <p>Link: <a href="https://brijamfitz.github.io/Train-Scheduler/" target="_blank" rel="noopener noreferrer">https://brijamfitz.github.io/Train-Scheduler/</a></p>
+                <p>Source Code: <a href="https://github.com/brijamfitz/Train-Scheduler" target="_blank" rel="noopener noreferrer">https://github.com/brijamfitz/Train-Scheduler</a></p>
+                <p>Build your own real time train scheduler backed by Firebase and Moment.js!</p>
             </div>
         </div>
-        <br><br>
-
+        <hr />
+        <!-- Caddyshack Word Guess -->
         <div class="row">
-            <div class="col-md-6">
-                <div class="image-9">
-                    <a href="https://brijamfitz.github.io/Boxing-Classic/" target="blank">
-                        <img src="assets/images/boxing-classic.jpg" target="_blank" alt="Boxing Classic" id="image-9">                       
-                            <div class="image-9-text">Boxing Classic</div>                       
-                    </a>
-                </div>
+            <div class="col-lg-4 img-container">
+                <a href="https://brijamfitz.github.io/Caddyshack-Word-Guess/" target="_blank" rel="noopener noreferrer"><img src="assets/images/caddyshack-hangman.jpg" alt="Caddyshack Word Guess" class="project-img"></img></a>
             </div>
-
-            <div class="col-md-6">
-                <div class="image-10">
-                    <a href="https://brijamfitz.github.io/Crystals-Collector/" target="_blank">
-                        <img src="assets/images/crystals-collector.jpg" target="_blank" alt="Crystals Collector" id="image-10">                       
-                            <div class="image-10-text">Crystals Collector</div>                       
-                    </a>
-                </div>
-            </div>   
+            <div class="col-lg-8 project-info">
+                <p class="title">Caddyshack Word Guess</p>
+                <p>Link: <a href="https://brijamfitz.github.io/Caddyshack-Word-Guess/" target="_blank" rel="noopener noreferrer">https://brijamfitz.github.io/Caddyshack-Word-Guess/</a></p>
+                <p>Source Code: <a href="https://github.com/brijamfitz/Caddyshack-Word-Guess" target="_blank" rel="noopener noreferrer">https://github.com/brijamfitz/Caddyshack-Word-Guess</a></p>
+                <p>Guess the classic characters from Caddyshack in a game of JavaScript Word Guess!</p>
+            </div>
         </div>
-
+        <hr />
+        <!-- Boxing Classic -->
         <div class="row">
-            <div class="col-md-6">
-                <p id="info">Classic boxers from different eras match up against each other to find out who is the real world champion in this boxing RPG!
-                    <br>
-                    <a href="https://github.com/brijamfitz/Boxing-Classic" target="_blank">Click here for the GitHub Repo!</a>
-                </p>
+            <div class="col-lg-4 img-container">
+                <a href="https://brijamfitz.github.io/Boxing-Classic/" target="_blank" rel="noopener noreferrer"><img src="assets/images/boxing-classic.jpg" alt="Boxing Classic" class="project-img"></img></a>
             </div>
-
-            <div class="col-md-6">
-                <p id="info">Try and guess the target number with randomly generated crystal values in this JavaScript and jQuery game!
-                    <br>
-                    <a href="https://brijamfitz.github.io/Crystals-Collector/" target="_blank">Click here for the GitHub Repo!</a>
-                </p>
+            <div class="col-lg-8 project-info">
+                <p class="title">Boxing Classic</p>
+                <p>Link: <a href="https://brijamfitz.github.io/Boxing-Classic/" target="_blank" rel="noopener noreferrer">https://brijamfitz.github.io/Boxing-Classic/</a></p>
+                <p>Source Code: <a href="https://github.com/brijamfitz/Boxing-Classic" target="_blank" rel="noopener noreferrer">https://github.com/brijamfitz/Boxing-Classic</a></p>
+                <p>Classic boxers from different eras match up against each other to find out who is the real world champion in this boxing RPG!</p>
             </div>
+        </div>
+        <hr />
+        <!-- Crystals Collector -->
+        <div class="row">
+            <div class="col-lg-4 img-container">
+                <a href="https://brijamfitz.github.io/Crystals-Collector/" target="_blank" rel="noopener noreferrer"><img src="assets/images/crystals-collector.jpg" alt="Crystals Collector" class="project-img"></img></a>
+            </div>
+            <div class="col-lg-8 project-info">
+                <p class="title">Crystals Collector</p>
+                <p>Link: <a href="https://brijamfitz.github.io/Crystals-Collector/" target="_blank" rel="noopener noreferrer">https://brijamfitz.github.io/Crystals-Collector/</a></p>
+                <p>Source Code: <a href="https://brijamfitz.github.io/Crystals-Collector/" target="_blank" rel="noopener noreferrer">https://brijamfitz.github.io/Crystals-Collector/</a></p>
+                <p>Try and guess the target number with randomly generated crystal values in this JavaScript and jQuery game!</p>
+            </div>
+        </div>
+        <hr />
+        <div class="home-container">
+            <a href="index.html" class="homepage">Return to Homepage</a>
         </div>
     </div>
-
-    <nav class="navbar fixed-bottom navbar-light bg-light">
-        <span class="navbar-brand mb-0 h1">
-            <a href="mailto: brianjfitzgerald@gmail.com" id="my-email">brianjfitzgerald@gmail.com</a>
-
-            <a href="https://www.linkedin.com/in/brian-james-fitzgerald/" target="_blank" id="linked-in">
-                <img src="assets/images/linked-in.png" id="linkedin">
-            </a>
-
-            <a href="https://github.com/brijamfitz" target="_blank" id="git-hub">
-                <img src="assets/images/github.png" id="github">    
-            </a>
-        </span>
-    </nav>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -2,8 +2,6 @@
 
 ## Welcome to my Portfolio!
 
-![image](assets/images/screenshot-portfolio.png)
-
 Please explore! You can find links to my current projects under the Portfolio tab.
 
 ### Features
