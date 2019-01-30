@@ -75,6 +75,10 @@ a:hover {
   text-align: center;
 }
 
+.project-img:hover {
+  border-color: lime;
+}
+
 .card {
   background-color: #000000;
   color: #FFFFFF;
