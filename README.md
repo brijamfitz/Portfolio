@@ -2,13 +2,15 @@
 
 ## Welcome to my Portfolio!
 
-Please explore! You can find links to my current projects under the Portfolio tab.
+![image](assets/images/screenshot-portfolio.png)
+
+Please explore! You can find links to my current projects by clicking the arrow function on the right!
 
 ### Features
-* Footer contains links to email, LinkedIn, and GitHub
-* Portfolio tab contains links to six of my current projects
-    * Click the image to launch the app
-    * Click the text to launch the GitHub repo
+* Homepage contains links to GitHub, LinkedIn, Resume, and Email
+* Projects page contains links to eleven of my current projects
+    * Click the image or Link url to launch the app
+    * Click the Source Code url to launch the GitHub repo
     * READMEs contain more detailed information for each project
 
 &nbsp;
@@ -17,4 +19,4 @@ Designed and maintained by Brian Fitzgerald
 
 Email: brianjfitzgerald@gmail.com
 
-Copyright &#169; 2018
+Copyright &#169; 2019
