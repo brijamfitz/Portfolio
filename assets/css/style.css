@@ -109,4 +109,24 @@ h1 {
   padding-bottom: 11px;
 }
 
+/* Media screens */
+/* ======================================== */
+@media only screen and (max-height: 420px) {
+  .profile-image {
+    height: 115px;
+  }
+
+  .projects-link {
+    font-size: 18px;
+  }
+
+  .name,
+  .curly-bracket {
+    font-size: 18px;
+  }
+
+  .contact-info {
+    font-size: 14px;
+  }
+}
 
