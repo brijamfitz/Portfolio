@@ -134,6 +134,25 @@ h1 {
 
 /* Media screens */
 /* ======================================== */
+@media only screen and (max-width: 420px) {
+  .skill,
+  .name,
+  .github,
+  .linkedin,
+  .resume,
+  .email {
+    font-size: 14px;
+  }
+
+  .technologies,
+  .name,
+  .curly-bracket,
+  .curly-bracket-right,
+  .projects-link {
+    font-size: 16px;
+  }
+}
+
 @media only screen and (max-height: 420px) {
   .profile-image {
     height: 115px;
