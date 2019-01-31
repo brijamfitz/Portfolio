@@ -9,7 +9,7 @@ body {
   border: solid;
   border-width: 5px;
   border-radius: 50%;
-  border-color: hotpink;
+  border-color: rgb(247, 82, 82);
   position: fixed;
   top: 0;
   left: 0;
@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-  color: hotpink;
+  color: rgb(247, 82, 82);
 }
 
 .projects-container {
@@ -71,7 +71,7 @@ a:hover {
   height: 200px;
   width: 300px;
   border: solid;
-  border-color: hotpink;
+  border-color: rgb(250, 120, 120);
   text-align: center;
 }
 
@@ -86,7 +86,7 @@ a:hover {
 
 .title {
   font-size: 24px;
-  color: hotpink;
+  color: rgb(247, 82, 82);
 }
 
 hr {
