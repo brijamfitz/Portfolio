@@ -17,6 +17,29 @@ body {
   height: 225px;
 }
 
+.skills-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: 5px;
+}
+
+.skill {
+  margin: 0;
+  text-align: right;
+}
+
+.technologies {
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.curly-bracket-right {
+  text-align: right;
+  margin-right: 5px;
+  font-size: 24px;
+}
+
 .contact-info {
   position: fixed;
   bottom: 0;
