@@ -25,7 +25,7 @@ body {
 }
 
 .skill {
-  margin: 0px 15px 0px 0px;
+  margin: 0px 20px 0px 0px;
   text-align: right;
 }
 
@@ -60,7 +60,15 @@ body {
 .linkedin,
 .resume,
 .email {
-  margin: 0px 0px 10px 20px;
+  margin: 5px 0px 5px 20px;
+}
+
+.name {
+  margin-bottom: 8px;
+}
+
+.curly-bracket {
+  margin-top: 8px;
 }
 
 a {
