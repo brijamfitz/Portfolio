@@ -143,7 +143,7 @@ h1 {
   .linkedin,
   .resume,
   .email {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .technologies,
@@ -164,13 +164,33 @@ h1 {
     font-size: 18px;
   }
 
+  .skill,
   .name,
-  .curly-bracket {
+  .github,
+  .linkedin,
+  .resume,
+  .email {
+    font-size: 16px;
+  }
+
+  .technologies,
+  .name,
+  .curly-bracket,
+  .curly-bracket-right,
+  .projects-link {
     font-size: 18px;
   }
 
   .contact-info {
-    font-size: 14px;
+    font-size: 16px;
+  }
+
+  .projects-link {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 5px;
+    padding: 5px;
   }
 }
 
